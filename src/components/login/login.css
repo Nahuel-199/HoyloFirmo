@@ -1,0 +1,247 @@
+.container{
+    position: relative;
+    width: 1280px;
+    height: 916px;
+    background: #EBEFFF;
+    overflow: hidden;
+}
+.rectangulo1{
+ position: absolute;
+ width: 554px;
+ height: 132px;
+ left: -220px;
+ top: 800px;
+ background: #AFB3FF;
+ border-radius: 105px;
+ transform: rotate(-41.1deg);
+ overflow: hidden;
+}
+
+.rectangulo2{
+    position: absolute;
+    width: 554px;
+    height: 132px;
+    left: 0px;
+    top: 40px;
+    background: #838CF1;
+    border-radius: 105px;
+    transform: rotate(0deg);
+}
+
+.title{
+position: absolute;
+width: 360px;
+height: 19px;
+left: 240px;
+top: 177px;
+font-weight: 600;
+font-size: 20px;
+color: #777777;
+letter-spacing: 2px;
+}
+
+.items{
+    position: absolute;
+    top: 48%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    width: 415px;
+    height: 420px;
+}
+
+.formu{
+padding: 0 40px;
+box-sizing: border-box;
+animation: bounceInDown 1900ms both
+}
+@keyframes bounceInDown {
+
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        transform: translate3d(0, 5px, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.inputs-login{
+position: relative;
+border-bottom: 2px solid #adadad;
+margin: 30px 0;
+}
+
+.inputs-login input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: none;
+    }
+    
+    .inputs-login label{
+    position: absolute;
+    top: -10%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+    }
+    
+    .inputs-login span::before{
+    content:"";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+    }
+    
+    .inputs-login input:focus, label::before,
+    .inputs-login input:valid, label::before{
+    top: -5px;
+    color: #2691d9;
+    }
+    
+    .inputs-login input:focus ~ span::before,
+    .inputs-login input:valid ~ span::before{
+    width: 100%;
+    }
+
+    .btn-login{
+        width: 50%;
+        height: 50px;
+        margin-left: 25%;
+        border: 1px solid;
+        background: #2691d9;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        margin-top: 0px;
+        }
+        
+        .btn-login:hover{
+        border-color: #2691d9;
+        transition: .5s;
+        }
+
+        .parr{
+            margin: 30px 0;
+            text-align: center;
+            font-size: 16px;
+            color: #666666;
+            }
+            
+            .parr span{
+            color: #2691d9;
+            text-decoration: none;
+            cursor: pointer;
+            }
+            
+            .parr span:hover{
+            text-decoration: underline;
+            }
+
+            .left-2{
+           position: absolute;
+           width: 480px;
+           height: 916px;
+           left: 800px;
+           top: 0px;
+           background: #AFB3FF;
+           overflow: hidden;
+            }
+
+            .left-2>.img-left-2>.logo {
+                animation: bounceInDown 1400ms both
+            }
+
+            @keyframes bounceInDown {
+
+                from,
+                60%,
+                75%,
+                90%,
+                to {
+                    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                }
+            
+                0% {
+                    opacity: 0;
+                    transform: translate3d(0, -3000px, 0);
+                }
+            
+                60% {
+                    opacity: 1;
+                    transform: translate3d(0, 25px, 0);
+                }
+            
+                75% {
+                    transform: translate3d(0, -10px, 0);
+                }
+            
+                90% {
+                    transform: translate3d(0, 5px, 0);
+                }
+            
+                to {
+                    transform: translate3d(0, 0, 0);
+                }
+            }
+
+            .welcome{
+                font-size: 55px;
+                font-weight: 900;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                color: aliceblue;
+                margin-top: 15px;
+                animation: pulse 3300ms infinite both;
+            }
+
+            @keyframes pulse {
+                from {
+                    transform: scale3d(1, 1, 1);
+                }
+            
+                50% {
+                    transform: scale3d(1.05, 1.05, 1.05);
+                }
+            
+                to {
+                    transform: scale3d(1, 1, 1);
+                }
+            }

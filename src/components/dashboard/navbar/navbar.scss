@@ -1,0 +1,71 @@
+.navbar-dash{
+    height: 50px;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+
+    .wrapper-dash{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .search-dash{
+            display: flex;
+            align-items: center;
+            border: 0.5px solid lightgray;
+            padding: 3px;
+
+            input{
+                border: none;
+                outline: none;
+                background: transparent;
+
+                &::placeholder{
+                    font-size: 12px;
+                }
+            }
+        } 
+
+        .items-dash{
+            display: flex;
+            align-items: center;
+
+            .item-dash{
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+                position: relative;
+
+                .icon-dash{
+                  font-size: 20px;
+                }
+
+                .avatar-dash{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+
+                .counter-dash{
+                    width: 15px;
+                    height: 15px;
+                    background-color: rgb(201, 33, 33);
+                    color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 10px;
+                    font-weight: bold;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                }
+            }
+        }
+    }
+}
