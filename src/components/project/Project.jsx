@@ -8,10 +8,10 @@ const Project = () => {
       <div>
        <Navbar/>
        <div className='container-projects'>
-       <div className='rectangulo1'>
-              <div className='rectangulo2'>
-                </div>
-           </div>
+       <div className="wave wave1"></div>
+             <div className="wave wave2"></div>
+             <div className="wave wave3"></div>
+             <div className="wave wave4"></div>
            <span className="title-project">Sus empresas</span>
            <div className="items-container">
             <li className='titles'>

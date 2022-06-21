@@ -10,7 +10,7 @@ import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-import logo from "../../../img/logofirma0.png"
+import logo from "../../../img/logopagina.png"
 import { Link } from 'react-router-dom';
 import "./sidebar.scss";
 import { DarkModeContext } from '../../../context/darkModeContext';

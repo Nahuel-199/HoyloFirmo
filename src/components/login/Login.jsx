@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2'
 import { useNavigate } from 'react-router-dom';
-import logologin from "../../img/logoLogin0.png"
+import logo from "../../img/logopagina.png"
 import { Link } from 'react-router-dom';
 import "./login.css"
 
@@ -79,11 +79,12 @@ const style ={
   return (
    <section>
          <div className="container">
-           <div className='rectangulo1'>
-              <div className='rectangulo2'>
-                </div>
-           </div>
+             <div className="wave wave1"></div>
+             <div className="wave wave2"></div>
+             <div className="wave wave3"></div>
+             <div className="wave wave4"></div>
            <span className="title">¡Bienvenido de nuevo!</span>
+           <img src={logo} alt="" className='logo-app' />
            <div className="items">
             <form className='formu' onSubmit={loginSubmit}>
                  <div className="inputs-login">
@@ -113,29 +114,33 @@ const style ={
              </form>
            </div>
            <div className="container" style={style}>
-           <div className='rectangulo1'>
-              <div className='rectangulo2'>
-                </div>
-           </div>
+           <div className="wave wave1"></div>
+             <div className="wave wave2"></div>
+             <div className="wave wave3"></div>
+             <div className="wave wave4"></div>
            <span className="title">¡Hola Bienvenido Registrece!</span>
+           {/* <img src={logo} alt="" className='logo-app' /> */}
            <div className="items">
              <form onSubmit={registerSubmit}>
              <div className="inputs-login">
+             <label>Nombre</label>
              <input type="text" name="name" id="login-name" 
-                 placeholder='User Name...' required value={user.name}
+                 required value={user.name}
                  onChange={onChangeInput}/>
                     <span></span>
                     </div>
                     <div className="inputs-login">
+                    <label>Email</label>
                  <input type="email" name="email" id="register-email" 
-                 placeholder='Email...' required value={user.email}
+                 required value={user.email}
                  onChange={onChangeInput}/>
                     <span></span>
                     </div>
 
                     <div className="inputs-login">
+                    <label>Password</label>
                     <input type="password" name="password" id="register-password" 
-                 placeholder='Password...' required value={user.password} 
+                  required value={user.password} 
                  autoComplete="true" onChange={onChangeInput}/>
                     <span></span>
                     </div>
@@ -148,14 +153,6 @@ const style ={
              </div>
              </div>
        </div>
-           <div className="left-2">
-              <div className="img-left-2">
-                <img src={logologin} alt="" className='logo'/>
-                <span className='welcome'>Bienvenidos</span>
-                <span className='welcome'>a</span>
-                <span className='welcome'>Hoy lo firmo</span>
-                </div>
-           </div>
    </section>
   )
 }
