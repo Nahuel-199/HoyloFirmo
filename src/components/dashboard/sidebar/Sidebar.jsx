@@ -10,6 +10,7 @@ import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
+import logo from "../../../img/logofirma0.png"
 import { Link } from 'react-router-dom';
 import "./sidebar.scss";
 import { DarkModeContext } from '../../../context/darkModeContext';
@@ -21,7 +22,7 @@ const Sidebar = () => {
     <div className="sidebar">
     <div className="top">
       <Link to="/projects">
-        <span className="logo">Hoy lo firmo</span>
+        <img src={logo} alt="logo" className='img-side'/>
         </Link>
     </div>
     <hr />

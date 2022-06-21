@@ -2,7 +2,8 @@
     position: relative;
     width: 1280px;
     height: 916px;
-    background: #EBEFFF;
+    background-image: url("../../img/fondo2.jpg");
+    background-size: cover;
     overflow: hidden;
 }
 .rectangulo1{
@@ -185,7 +186,8 @@ margin: 30px 0;
             }
 
             .left-2>.img-left-2>.logo {
-                animation: bounceInDown 1400ms both
+                width: 500px;
+                animation: bounceInDown 1400ms both;
             }
 
             @keyframes bounceInDown {
@@ -243,5 +245,30 @@ margin: 30px 0;
             
                 to {
                     transform: scale3d(1, 1, 1);
+                }
+            }
+
+
+            @media screen and (max-width: 690px){
+                .container{
+                    width: 386px;
+                    height: 570px;
+                    margin-top: 12%;
+                }
+                .left-2{
+                 display: none;   
+                }
+                .items{
+                    width: 100%;
+                    margin-left: 76px;
+                }
+                .title{
+                    font-size: 20px;
+                    left: 60px;
+                    top: 20px;
+                
+                }
+                .rectangulo1{
+                    margin-top: 0;
                 }
             }

@@ -2,8 +2,16 @@
     position: relative;
     width: 1275px;
     height: 845px;
-    background: #EBEFFF;
     overflow: hidden;
+    background-image: url("../../img/fondo2.jpg");
+    background-size: cover;
+}
+
+.bob{
+    margin-left: 1%;
+    height: 750px;
+    width: 100%;
+    margin-top: 5%;
 }
 
 .title-project{
@@ -32,7 +40,7 @@
 }
 
 .titles{
-    padding: 26px 40px;
+    padding: 12px 40px;
     box-sizing: border-box;
 }
 

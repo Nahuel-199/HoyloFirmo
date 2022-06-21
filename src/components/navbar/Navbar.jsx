@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaUser } from "react-icons/fa";
-import logo from "../../img/logonav.png";
+import logo from "../../img/logofirma0.png";
 import { Link } from 'react-router-dom';
 import "./nav.css";
 
@@ -14,8 +14,9 @@ const Navbar = () => {
             <FaUser className='icon'/>
         </div>
         <div className='logo-nav'>
+        <Link to='/'>
         <img src={logo} alt=""  className='img-nav'/>
-           <span className='hoy'>Hoy se firma</span>
+        </Link>
         </div>
         </div>
   )

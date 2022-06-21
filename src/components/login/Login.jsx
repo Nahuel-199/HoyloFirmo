@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2'
 import { useNavigate } from 'react-router-dom';
-import logo from "../../img/fondo2.png"
+import logologin from "../../img/logoLogin0.png"
 import { Link } from 'react-router-dom';
 import "./login.css"
 
@@ -150,7 +150,7 @@ const style ={
        </div>
            <div className="left-2">
               <div className="img-left-2">
-                <img src={logo} alt="" className='logo'/>
+                <img src={logologin} alt="" className='logo'/>
                 <span className='welcome'>Bienvenidos</span>
                 <span className='welcome'>a</span>
                 <span className='welcome'>Hoy lo firmo</span>

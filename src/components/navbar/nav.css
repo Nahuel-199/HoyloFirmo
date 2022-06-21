@@ -63,10 +63,10 @@ top: calc(50% - 40px/2);
 }
 
 .img-nav{
-    width: 90px;
+    width: 245px;
     margin-top: -5px;
-    margin-left: -85px;
-    animation: fadeInUp 1500ms both
+    margin-left: -66px;
+    animation: fadeInUp 1500ms both;
 }
 
 @keyframes fadeInUp {
