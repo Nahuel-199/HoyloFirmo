@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import Login from './components/login/Login';
+import Register from './components/register/Register';
 import Project from './components/project/Project';
 import Dashboard from './components/dashboard/home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -17,6 +18,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Login />} />
+      <Route path='/register' element={<Register />} />
       <Route path='/projects' element={<Project />} />
       <Route path='/dashboard' index element={<Dashboard />} />
     </Routes>

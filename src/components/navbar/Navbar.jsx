@@ -2,6 +2,7 @@ import React from 'react';
 import { FaUser } from "react-icons/fa";
 import logo from "../../img/logopagina.png"
 import { Link } from 'react-router-dom';
+import { FiLogIn } from "react-icons/fi"
 import "./nav.css";
 
 const Navbar = () => {
@@ -13,6 +14,7 @@ const Navbar = () => {
            <span className="actual-text">&nbsp;logout&nbsp;</span>
             <span className="hover-text" aria-hidden="true">&nbsp;logout&nbsp;</span>
                </button>
+               <FiLogIn className="logout"/>
           </Link>
             <FaUser className='icon'/>
         </div>
