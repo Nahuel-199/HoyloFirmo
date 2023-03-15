@@ -53,7 +53,6 @@ const [,setOnLogin] = useState(false)
              <div className="wave wave2"></div>
              <div className="wave wave3"></div>
              <div className="wave wave4"></div>
-           <span className="title">¡Bienvenido de nuevo!</span>
            <img src={logo} alt="" className='logo-app' />
            <div className="items">
             <form className='formu' onSubmit={loginSubmit}>

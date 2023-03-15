@@ -53,7 +53,6 @@ const registerSubmit = async e => {
       <div className="wave wave2"></div>
       <div className="wave wave3"></div>
       <div className="wave wave4"></div>
-    <span className="title-register">¡Hola Bienvenido Registrece!</span>
     <img src={logo} alt="" className='logo-app-register' />
     <div className="items-register">
       <form onSubmit={registerSubmit} className="formu-register">

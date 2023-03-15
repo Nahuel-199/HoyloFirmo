@@ -8,10 +8,12 @@ const Project = () => {
       <div>
        <Navbar/>
        <div className='container-projects'>
+        <div className="container_wave">
        <div className="wave wave1"></div>
              <div className="wave wave2"></div>
              <div className="wave wave3"></div>
              <div className="wave wave4"></div>
+             </div>
            <span className="title-project">Sus empresas</span>
            <div className="items-container">
             <li className='titles'>
@@ -20,11 +22,6 @@ const Project = () => {
                 <span className="title-projects">Challenge</span>
                 <span className="title-projects">Creatio</span>
                 <span className="title-projects">Estudio Volpe Inglese & Asoc.2</span>
-                <span className="title-projects">Hoylofirmo Demo</span>
-                <span className="title-projects">Test</span>
-                <span className="title-projects">Test Mex</span>
-                <span className="title-projects">Test Uru</span>
-                <span className="title-projects">Test Uruiel</span>
                 </Link>
              </li>
            </div>
